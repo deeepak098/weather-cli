@@ -1,0 +1,200 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Hide Streamlit UI */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+
+.stApp{
+    background: linear-gradient(
+        135deg,
+        #3B82F6 0%,
+        #60A5FA 40%,
+        #93C5FD 100%
+    );
+}
+
+/* Hero Title */
+
+.title{
+    text-align:center;
+    color:white;
+    font-size:52px;
+    font-weight:700;
+    margin-top:20px;
+}
+
+.subtitle{
+    text-align:center;
+    color:white;
+    opacity:.9;
+    margin-bottom:35px;
+}
+
+/* Glass Card */
+
+.glass{
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:28px;
+
+    padding:35px;
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.18);
+
+}
+
+/* Temperature */
+
+.temp{
+
+    color:white;
+
+    font-size:78px;
+
+    font-weight:700;
+
+    text-align:center;
+
+    margin-top:10px;
+
+}
+
+/* City */
+
+.city{
+
+    color:white;
+
+    font-size:38px;
+
+    font-weight:600;
+
+    text-align:center;
+
+}
+
+/* Description */
+
+.desc{
+
+    color:white;
+
+    opacity:.95;
+
+    text-align:center;
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+}
+
+/* Metric Cards */
+
+.metric{
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:20px;
+
+    padding:22px;
+
+    text-align:center;
+
+    color:white;
+
+    transition:.3s;
+
+    border:1px solid rgba(255,255,255,.18);
+
+}
+
+.metric:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
+
+}
+
+/* Metric Number */
+
+.metric-value{
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+/* Metric Label */
+
+.metric-label{
+
+    font-size:16px;
+
+    opacity:.9;
+
+}
+
+/* Search */
+
+div[data-baseweb="input"]{
+
+    border-radius:18px;
+
+}
+
+.stButton>button{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:14px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    background:white;
+
+    color:#2563EB;
+
+    transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+    background:#2563EB;
+
+    color:white;
+
+}
